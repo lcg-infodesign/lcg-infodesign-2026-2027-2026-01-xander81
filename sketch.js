@@ -6,6 +6,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   console.log('p5.js version:', p5.VERSION);
   // put setup code here
+  document.body.style.backgroundColor = "red";
   const message =
     "This is a template repository\nfor the course Laboratorio di Computergrafica\nCommunication Design, Politecnico di Milano";
   textAlign(CENTER, CENTER);
