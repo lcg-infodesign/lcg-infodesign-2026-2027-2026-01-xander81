@@ -61,7 +61,7 @@ function draw() {
     circle(x, top, 18);
   }
 
-  // beige card frame
+  // card frame beige
   noStroke();
   fill('#f3e2b3');
   rect(0, 0, 400, 24);
